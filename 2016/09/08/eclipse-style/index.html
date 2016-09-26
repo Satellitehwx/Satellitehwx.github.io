@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Eclipse," />
 
 
 
@@ -84,15 +84,18 @@
 
 
 
-<meta name="description" content="不要仰望别人，自己亦是风景。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="JavaLow Blog">
-<meta property="og:url" content="http://www.javalow.com/index.html">
+<meta name="description" content="Eclipse个性化，自定义Eclipse样式以达到护眼、装逼等效果!">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Eclipse中自定义代码编辑区配色方案">
+<meta property="og:url" content="http://www.javalow.com/2016/09/08/eclipse-style/index.html">
 <meta property="og:site_name" content="JavaLow Blog">
-<meta property="og:description" content="不要仰望别人，自己亦是风景。">
+<meta property="og:description" content="Eclipse个性化，自定义Eclipse样式以达到护眼、装逼等效果!">
+<meta property="og:image" content="http://obbjy8zqi.bkt.clouddn.com/eclipse.jpg_javalowimgs">
+<meta property="og:updated_time" content="2016-09-08T07:31:04.761Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JavaLow Blog">
-<meta name="twitter:description" content="不要仰望别人，自己亦是风景。">
+<meta name="twitter:title" content="Eclipse中自定义代码编辑区配色方案">
+<meta name="twitter:description" content="Eclipse个性化，自定义Eclipse样式以达到护眼、装逼等效果!">
+<meta name="twitter:image" content="http://obbjy8zqi.bkt.clouddn.com/eclipse.jpg_javalowimgs">
 
 
 
@@ -110,7 +113,7 @@
   };
 </script>
 
-  <title> JavaLow Blog </title>
+  <title> Eclipse中自定义代码编辑区配色方案 | JavaLow Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -131,9 +134,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -240,9 +241,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -262,10 +263,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/09/08/eclipse-style/" itemprop="url">
-                  Eclipse中自定义代码编辑区配色方案
-                </a>
+                Eclipse中自定义代码编辑区配色方案
               
             
           </h1>
@@ -340,285 +338,91 @@
       
 
       
-        
-          <p><strong>Eclipse个性化，自定义Eclipse样式以达到护眼、装逼等效果!</strong><br><img src="http://obbjy8zqi.bkt.clouddn.com/eclipse.jpg_javalowimgs" alt="eclipse"><br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/09/08/eclipse-style/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+        <p><strong>Eclipse个性化，自定义Eclipse样式以达到护眼、装逼等效果!</strong><br><img src="http://obbjy8zqi.bkt.clouddn.com/eclipse.jpg_javalowimgs" alt="eclipse"><br><a id="more"></a> </p>
+<h2 id="自定义Eclipce配色方案"><a href="#自定义Eclipce配色方案" class="headerlink" title="自定义Eclipce配色方案"></a>自定义Eclipce配色方案</h2><hr>
+<p>首先我们打开Eclipse的着色板，配置代码中关键字的颜色(注：后面的数字是面板中填充的值)</p>
+<blockquote>
+<p>Window&gt;&gt;Preferences&gt;&gt;Java&gt;&gt;Editor&gt;&gt;Sytaxcoloring&gt;&gt;<br>点开右边java的加号,配置一下项：</p>
+</blockquote>
+<p><strong>Annotations</strong>(<em>注释</em>): 107, 147, 186</p>
+<p><strong>Deprecated members</strong>(<em>不建议使用的成员</em>): 0, 0, 0</p>
+<p><strong>Fields</strong>(<em>字段</em>): 128, 0, 128</p>
+<p><strong>Keyword ‘return’</strong>(<em>关键字’return’</em>): 255, 0, 0</p>
+<p><strong>Keyword excluding ‘return’</strong>(<em>除了关键字以外的return</em>): 255, 0, 128</p>
+<p><strong>Local variable declarations</strong>(<em>局部变量声明</em>): 128, 128, 128</p>
+<p><strong>Method declarations</strong>(<em>方法声明</em>): 255, 128, 64</p>
+<p><strong>Method</strong>(<em>方法</em>): 74, 165, 255</p>
+<p><strong>Operators</strong> 和 <strong>brackets</strong>(<em>运算符与方括号</em>): 255, 128, 0</p>
+<p><strong>Others</strong>(<em>其他</em>): 126, 202, 0</p>
+<p><strong>Static fields</strong>(<em>静态字段</em>): 33, 0, 189</p>
+<p><strong>Static Method invocations</strong>(静态方法调用): 77, 166 255</p>
+<p><strong>Strings</strong>(字符串): 132, 26, 238</p>
+<p><strong>Type variables</strong>(<em>类型变量</em>): 128, 0, 25</p>
+<p>然后，配置当前行的颜色属性：</p>
+<blockquote>
+<p>Window&gt;&gt;Preferences&gt;&gt;General&gt;&gt;Editors&gt;&gt;Text Editors</p>
+</blockquote>
+<p><strong>Line number foreground</strong>(<em>行号</em>):255,255,0</p>
+<p><strong>Current line highlight</strong>(<em>当前行高亮</em>)：72，72，72</p>
+<p><strong>Background color</strong>(<em>背景色</em>):0,0,0</p>
+<p>最后跳下字体大小：</p>
+<blockquote>
+<p>Window&gt;&gt;Preferences&gt;&gt;General&gt;&gt;Appearance&gt;&gt;Colors and Fonts&gt;&gt;右边basic&gt;&gt;点击text font&gt;&gt;选择右边Change&gt;&gt;设置字体大小。</p>
+</blockquote>
+<p>搞定！现在看起来应该舒服多了。</p>
+
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/08/23/maven-new-web-project/" itemprop="url">
-                  在Eclipse中使用maven插件创建一个web project
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-23T20:15:34+08:00" content="2016-08-23">
-              2016-08-23
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Maven/" itemprop="url" rel="index">
-                    <span itemprop="name">Maven</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/08/23/maven-new-web-project/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/23/maven-new-web-project/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/08/23/maven-new-web-project/" class="leancloud_visitors" data-flag-title="在Eclipse中使用maven插件创建一个web project">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
+            <a href="/tags/Eclipse/" rel="tag">#Eclipse</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p>  Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具。<br>  Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 Maven 的比例在持续增长。——引自百度百科<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/23/maven-new-web-project/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/08/23/maven-new-web-project/" rel="next" title="在Eclipse中使用maven插件创建一个web project">
+                <i class="fa fa-chevron-left"></i> 在Eclipse中使用maven插件创建一个web project
+              </a>
+            
           </div>
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+          <div class="post-nav-prev post-nav-item">
             
-            
-              
-                
-                <a class="post-title-link" href="/2016/07/27/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-27T15:49:01+08:00" content="2016-07-27">
-              2016-07-27
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/07/27/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/27/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/07/27/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/07/27/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -626,6 +430,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/09/08/eclipse-style/"
+           data-title="Eclipse中自定义代码编辑区配色方案" data-url="http://www.javalow.com/2016/09/08/eclipse-style/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -645,8 +457,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/defaultuser.png"
@@ -725,6 +546,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义Eclipce配色方案"><span class="nav-number">1.</span> <span class="nav-text">自定义Eclipce配色方案</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -835,6 +667,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
